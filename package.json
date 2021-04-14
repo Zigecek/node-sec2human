@@ -1,0 +1,10 @@
+{
+  "name": "sec2human",
+  "version": "1.0.0",
+  "description": "Converts seconds to 00:00:00 format.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "zige",
+  "license": "ISC"
+}
