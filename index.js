@@ -10,7 +10,7 @@ function sec2human(seconds) {
         const h = pad(Math.floor(+seconds / 3600));
         const m = pad(Math.floor(+seconds % 3600 / 60));
         const s = pad(Math.floor(+seconds % 3600 % 60));
-        var resp = (h == 00 && m == 00) ? ('00:' + s) : (h == 00 && m != 00) ? (m + ':' + s) : (h + ':' + m + ':' + s);
+        var resp = (h == 00 && m == 00) ? ('00:' + s) : (h == 00) ? (m + ':' + s) : (h + ':' + m + ':' + s);
         return resp;
     } else {
         return undefined;
